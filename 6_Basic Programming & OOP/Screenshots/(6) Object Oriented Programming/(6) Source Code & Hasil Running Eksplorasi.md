@@ -1,7 +1,7 @@
 # Section 6 - Basic Programming & OOP
 ## Object Oriented Programming
 ### Screenshot Praktikum Eksplorasi
-#### Catatan : Program ini masih belum menerapkan untuk melakukan Update data buku
+#### Catatan : Program ini masih memiliki kekurangan yaitu belum menerapkan untuk melakukan Update data buku
 #### Source Code OOP Eksplorasi - Class Book
 ![(6) Source Code OOP Eksplorasi - Class Book](https://user-images.githubusercontent.com/95559118/224524530-6d776c0e-fc4f-4751-b13f-1c874a3332d8.png) <br>
 #### Source Code OOP Eksplorasi - Class BookManagementApp
