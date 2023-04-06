@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Member</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+		}
+		.container {
+			width: 50%;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #0c0606;
+			box-shadow: 0px 0px 10px #ccc;
+		}
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			margin-top: 0;
+		}
+		h2 {
+			text-align: center;
+			font-size: 18px;
+			margin-top: 0;
+			font-weight: normal;
+		}
+		label {
+			display: inline-block;
+			margin-top: 20px;
+		}
+		input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea {
+			width: 100%;
+			padding: 10px;
+			margin-top: 5px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type="radio"] {
+			margin-top: 10px;
+			display: inline-block;
+		}
+		textarea {
+			width: 100%;
+			height: 100px;
+			resize: vertical;
+			padding: 10px;
+			margin-top: 5px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		.btn-submit {
+			width: 100%;
+			display: block;
+			margin-top: 20px;
+			background-color: #1e90ff;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		.btn-submit:hover {
+			background-color: #009dfff3;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Digital Library</h1>
+		<h2>Create a new member</h2>
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder=" ">
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder=" ">
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" placeholder=" ">
+
+			<label for="phone">Phone number</label>
+			<input type="tel" id="phone" name="phone" placeholder=" ">
+
+			<label for="address">Address</label>
+			<textarea id="address" name="address" placeholder=" "></textarea>
+
+			<label for="gender">Gender</label>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">female</label>
+
+			<button type="submit" class="btn-submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
